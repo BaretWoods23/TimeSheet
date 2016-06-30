@@ -3,5 +3,4 @@ C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\TimeSheet.exe
 C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\TimeSheet.pdb
 C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\obj\Debug\TimeSheet.exe
 C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\obj\Debug\TimeSheet.pdb
-C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\TimeSheet.exe.CodeAnalysisLog.xml
-C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\TimeSheet.exe.lastcodeanalysissucceeded
+C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache

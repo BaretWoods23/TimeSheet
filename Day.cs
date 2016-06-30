@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TimeSheet
+    //TODO: handle editing errors
 {
     public class Day
     {
@@ -36,16 +37,25 @@ namespace TimeSheet
 
         public void Add(type TypeChoice, float hours)
         {
-            TotalHours += hours;
-            if (TypeChoice == type.REGULAR)
+            if (hours > 0)
             {
-                RegHours += hours;
-            }else if (TypeChoice == type.SICK)
+                TotalHours += hours;
+                if (TypeChoice == type.REGULAR)
+                {
+                    RegHours += hours;
+                }
+                else if (TypeChoice == type.SICK)
+                {
+                    SickHours += hours;
+                }
+                else if (TypeChoice == type.VACATION)
+                {
+                    VacHours += hours;
+                }
+            }
+            else
             {
-                SickHours += hours;
-            }else if (TypeChoice == type.VACATION)
-            {
-                VacHours += hours;
+                throw new ArgumentOutOfRangeException("Hours", "Hours must be above 0.");
             }
         }
         public bool Validate()
