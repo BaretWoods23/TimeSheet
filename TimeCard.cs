@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TimeSheet
 {
-    class TimeCard
+    public class TimeCard
     {
+
+        internal object CalculateOverTime()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

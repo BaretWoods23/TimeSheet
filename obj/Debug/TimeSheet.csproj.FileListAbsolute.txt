@@ -4,3 +4,5 @@ C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\TimeSheet.pdb
 C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\obj\Debug\TimeSheet.exe
 C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\obj\Debug\TimeSheet.pdb
 C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\obj\Debug\TimeSheet.csprojResolveAssemblyReference.cache
+C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bwoods\Documents\Neumont\AppDev\TimeSheet\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

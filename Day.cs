@@ -9,11 +9,12 @@ namespace TimeSheet
 {
     public class Day
     {
-        public float TotalHours = 0;
-        public float RegHours = 0;
-        public float SickHours = 0;
-        public float VacHours = 0;
+        public static float TotalHours = 0;
+        public static float RegHours = 0;
+        public static float SickHours = 0;
+        public static float VacHours = 0;
         public  enum type { SICK, VACATION, REGULAR }
+        public float[] HoursByType = new float[]{RegHours,SickHours,VacHours};
         public DateTime Date{ get; set; }
         public float HoursWorked { get; set; }
         public string HoursType { get; set; }
@@ -35,7 +36,7 @@ namespace TimeSheet
             return hours;
         }
 
-        public void Add(type TypeChoice, float hours)
+        public void SetHours(type TypeChoice, float hours)
         {
             if (hours > 0)
             {
@@ -60,7 +61,7 @@ namespace TimeSheet
         }
         public bool Validate()
         {
-            if (TotalHours <= 24 && TotalHours > 0)
+            if (TotalHours <= 24 && TotalHours > 0 && (hours*4)%2==0 || (hours*4)%2==1)
             {
                 return true;
             }else
