@@ -9,12 +9,12 @@ namespace TimeSheet
 {
     public class Day
     {
-        public static float TotalHours = 0;
-        public static float RegHours = 0;
-        public static float SickHours = 0;
-        public static float VacHours = 0;
+        public float TotalHours = 0;
+        public float RegHours = 0;
+        public float SickHours = 0;
+        public float VacHours = 0;
         public  enum type { SICK, VACATION, REGULAR }
-        public float[] HoursByType = new float[]{RegHours,SickHours,VacHours};
+     //   public float[] HoursByType = new float[]{RegHours,SickHours,VacHours};
         public DateTime Date{ get; set; }
         public float HoursWorked { get; set; }
         public string HoursType { get; set; }
